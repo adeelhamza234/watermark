@@ -5,12 +5,14 @@ import DrawerAppBar from './components/appbar/Appbar';
 import Home from './components/home/Home';
 
 function App() {
+  console.log("Deploy");
   return (
     <div>
       <DrawerAppBar/>
       <Home/>
       <About/>
       <Addwatermark/>
+      
     </div>
   );
 }
